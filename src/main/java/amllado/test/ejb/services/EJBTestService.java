@@ -6,5 +6,6 @@ import javax.ejb.Local;
 public interface EJBTestService {
 
 	String test(String s);
+	String getItemName(Integer id);
 	
 }
